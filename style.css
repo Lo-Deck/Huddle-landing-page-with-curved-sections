@@ -21,7 +21,8 @@
     --space_3to9: clamp(3.00rem, calc(-8.14rem + 22.86vw), 9.00rem);
     --space_6to15: clamp(6.00rem, calc(-10.71rem + 34.29vw), 15.00rem);
     --space_8to18: clamp(8.00rem, calc(-10.57rem + 38.10vw), 18.00rem);
-    --space_12to20: clamp(12.00rem, calc(-2.86rem + 30.48vw), 20.00rem);  
+    --space_12to20: clamp(12.00rem, calc(-2.86rem + 30.48vw), 20.00rem); 
+    --space_3to7: clamp(3.00rem, calc(7.06rem + -8.33vw), 7.00rem); 
 
     /*FONTS*/
 
@@ -517,7 +518,7 @@ img{
     }
 
     .contact{
-        padding-right: 7rem;
+        padding-right: var(--space_3to7);
     }
 
 }
